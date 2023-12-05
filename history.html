@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iO-Pay</title>
+    <link rel="stylesheet" href="./history.css" />
+    <link href="https://fonts.cdnfonts.com/css/gill-sans-std" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> -->
+
+</head>
+
+
+<body class="body">
+    <div class="navbar">
+        <div class="profileImg">
+            <a href="/login.html" class="linkIcon">
+                <i class="fa fa-user-o" aria-hidden="true" style="font-size: 20px;"></i>
+                <!-- <i class="fa fa-user-o" aria-hidden="true" style="color: aliceblue;"></i> -->
+            </a>
+        </div>
+        <!-- <div class="iopayIcon">
+            <img src="./images/iopayicon.png" alt="recieveIcon" width="45px" height="40px">
+        </div> -->
+
+        <div class="navLink">
+            <span class="title"> Merchant Portal:</span>
+            <span class="name">Gambnb</span>
+        </div>
+
+    </div>
+
+
+    <div class="homeArticle">
+
+
+        <div class="head">
+            <div class="soldContainer">
+                <h5 class="soldeTitle">Account Balance</h5>
+                <div class="mySold">
+                    <img src="./images/iopayicon.png" alt="recieveIcon" width="45px" height="40px">
+                    <!-- <img src="./images/dollar.png" alt="recieveIcon" width="40px" height="30px"> -->
+                    <p class="solodNumber">GMD 1,563 000</p>
+                    <i class="fa fa-eye" aria-hidden="true" style="width: 20px;"></i>
+                </div>
+            </div>
+
+
+
+            <div class="secondNavContainer">
+                <div class="item">
+                    <a href="/transfer.html" class="aLinkHead">
+                        <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Transaction</span>
+                    </a>
+                    <a href="/history.html" class="aLinkHead">
+
+                        <i class="fa fa-history" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">History</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="bodyPage">
+            <div class="headerbill">
+                <p class="textHeadBill">All Transactions</p>
+            </div>
+            <div class="lastBill" id="lastBillHome">
+                
+                <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="sendContainer">
+                                <img src="./images/receive-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Payment</span>
+                            <div class="infoUser">
+                                <span class="receiverName">AlbadDev</span>
+                                <span class="number">(3451004)</span>   
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">- <span class="money">D15 000</span></span>
+                        <p class="dateTransfert" > September 2, 11:11</p>
+                    </div>
+                </div>
+
+                <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="sendContainer">
+                                <img src="./images/send-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Withdrawal</span>
+                            <div class="infoUser">
+                                <span class="receiverName">Mame Saliou Sante</span>
+                                <span class="number">(7775544)</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">- <span class="money">D5 000</span></span>
+                        <p class="dateTransfert"> September 6, 23:45</p>
+                    </div>
+                </div>
+
+                <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="recieveContainer">
+                                <img src="./images/receive-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Payment</span>
+                            <div class="infoUser">
+                                <span class="receiverName">Aisha Marie</span>
+                                <span class="number"> (4567890)</span>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">+ <span class="money">D1 500 000</span></span>
+                        <p class="dateTransfert"> September 22, 09:10</p>
+                    </div>
+                </div>
+                    <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="sendContainer">
+                                <img src="./images/send-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Withdrawal</span>
+                            <div class="infoUser">
+                                <span class="receiverName">Mame Saliou Sante</span>
+                                <span class="number">(7775544)</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">- <span class="money">D5 000</span></span>
+                        <p class="dateTransfert"> September 6, 23:45</p>
+                    </div>
+                </div>
+                    <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="sendContainer">
+                                <img src="./images/send-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Withdrawal</span>
+                            <div class="infoUser">
+                                <span class="receiverName">Mame Saliou Sante</span>
+                                <span class="number">(7775544)</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">- <span class="money">D5 000</span></span>
+                        <p class="dateTransfert"> September 6, 23:45</p>
+                    </div>
+                </div>
+                    <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="sendContainer">
+                                <img src="./images/send-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Withdrawal</span>
+                            <div class="infoUser">
+                                <span class="receiverName">Mame Saliou Sante</span>
+                                <span class="number">(7775544)</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">- <span class="money">D5 000</span></span>
+                        <p class="dateTransfert"> September 6, 23:45</p>
+                    </div>
+                </div>
+                    <div class="billInfo">
+                    <div class="first">
+                        <div class="iconContainer">
+                            <div class="sendContainer">
+                                <img src="./images/send-money.png" alt="recieveIcon" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="recieverNameContainer">
+                            <span class="type" style="color:#1f58df;">Withdrawal</span>
+                            <div class="infoUser">
+                                <span class="receiverName">Mame Saliou Sante</span>
+                                <span class="number">(7775544)</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="moneyDetail">
+                        <span class="sendAmount">- <span class="money">D5 000</span></span>
+                        <p class="dateTransfert"> September 6, 23:45</p>
+                    </div>
+                </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="footerLink">
+            <ul class="footerItem">
+
+                <li class="footerList" style="margin-left: -30px;">
+                    <a href="/" class="footerList">
+                        <i class="fa fa-home" aria-hidden="true" style="font-size: 20px;"></i>
+                        <span class="footerLabel">Home</span>
+                    </a>
+                </li>
+
+                <li class="footerList">
+                    <a href="/scanToPay.html" class="footerList">
+                        <i class="fa fa-bell" aria-hidden="true" style="font-size: 20px;"></i>
+                        <span class="footerLabel">Notification</span>
+                    </a>
+                </li>
+                <li class="footerList">
+                    <a href="/transfer.html" class="footerList">
+                        <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Transfer</span>
+                    </a>
+                </li>
+                <li class="footerList" style="margin-right: 10px;">
+                    <a href="#" class="footerList">
+                        <i class="fa fa-qrcode" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">QR Pay</span>
+                    </a>
+                </li>
+                <li class="footerList" style="margin-right: 10px;">
+                    <a href="/reports.html" class="footerList">
+                        <i class="fa fa-tachometer" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Reports</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,246 @@
+/* ................................................................. */
+/* ................................................................. */
+/* LOGIN COMPONENT STYLE START HERE */
+/* ................................................................. */
+/* ................................................................. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 100vh;
+    background-color: #1f58df;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #1f58df;
+    position: fixed;
+}
+
+.forgetContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    /* height: 560px; */
+}
+.EmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerEmail {
+    color: #1f58df;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #1f58df;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.login {
+    padding: 10px 90px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f99f1b;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.form-control {
+   
+    width: 150px;
+    height: 36px;
+    border: 1px solid #cccccc74;
+    border-left: none;
+    text-align: center;
+
+}
+
+.input-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.input-group-label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 70px;
+    height: 20px;
+    background-color: #7d797914;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+
+/* ...........media query start here........... */
+@media (min-width: 0px) and (max-width: 320px) {
+    body {
+        margin:0
+    }
+    .container {
+        height: 100vh;
+        
+    }
+    .forgetContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    /* height: 560px; */
+    }
+    .input-group {
+        margin-bottom: -50px;
+    }
+}
+
+@media (min-width: 324px) and (max-width: 400px) {
+    body {
+        margin:0
+    }
+    .containerLogin {
+        height: 100vh;
+        
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .forgetPass {
+        margin-bottom: 10px;
+    }
+    .login { 
+        margin-top: -5px;
+    }
+    .loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    /* height: 560px; */
+}
+}
+
+
+@media (min-width: 412px) and (max-width: 768px) {
+    body {
+        margin:0
+    }
+    .containerLogin {
+        padding-top: 50px ;
+        height: 80vh;
+        position: fixed;
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .forgetPass {
+        margin-bottom: 10px;
+    }
+    .login { 
+        margin-top: -5px;
+    }
+    .loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    /* height: 560px; */
+    }
+    /* body {
+        background-color: #1f58df;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin:0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .containerfORM {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .imgContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .forgetPass {
+        margin-bottom: 10px;
+    }
+    .login { 
+        margin-top: -5px;
+    }
+    .loginContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        width: 250px;
+        height: 400px;
+        margin-top: 150px ;
+        margin-bottom: 200px;
+   
+    } */
+}
+
+/* .............................................. */
