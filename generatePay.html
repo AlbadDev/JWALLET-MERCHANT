@@ -72,31 +72,33 @@
                 <div class="transfertContainer">
                     <form action="submit" class="transterFormContainer">
 
-                        <div class="inputContainer">
+                        <!-- <div class="inputContainer">
                             <div class="labelContainer">
                                 <span class="labelText" id="">
-                                    <!-- <i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> -->
+                                    
                                     Type</span>
                             </div>
                             <select name="transaction" id="selectButton" class="inputField" id="inputFirst">
+                                <option value="Deposit">Generate Payment Code</option>
                                 <option value="Withdrawal">Withdrawal</option>
                             </select>
-                        </div>
+                        </div> -->
 
 
                         <div class="inputContainer" >
                             <div class="labelContainer">
                                 <span  id="" class="labelText"><i class="fa fa-user-circle" id="'icons" aria-hidden="true"
-                                        style="margin-right: 5px;"></i></i>Client</span>
+                                        style="margin-right: 5px;"></i></i>Code</span>
                             </div>
-                            <input type="number" placeholder="Mobile Number" class="inputField" id="inputFirst">
+                            <input type="number" placeholder="268409" disabled class="inputField" id="inputFirst">
                         </div>
                         <div class="inputContainer">
                             <div class="labelContainer">
-                                <span  id="" class="labelText"><i class="fa fa-street-view" id="'icons" aria-hidden="true"
-                                        style="margin-right: 5px"></i>Name</span>
+                                <span  id="" class="labelText">
+                                    <i class="fa fa-street-view" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>Merchant</span>
                             </div>
-                            <input type="text" disabled placeholder="No match" class="inputField" id="inputSecond">
+                            <input type="text" disabled placeholder="Gambnb" class="inputField" id="inputSecond">
                         </div>
     
                         <div class="inputContainer">
@@ -107,12 +109,12 @@
                             <input type="number" placeholder="000000" class="inputField" >
                         </div>
     
-                        <div class="inputContainer">
+                        <!-- <div class="inputContainer">
                             <span class="fraiText">Fee 0.8%</span>
                             <span class="fraiMontant">D10</span>
-                        </div>
+                        </div> -->
     
-                        <div class="inputContainer">
+                        <!-- <div class="inputContainer">
                             <div class="labelContainer">
                                 <span class="labelText" id="">
                                     <i class="fa fa-money iconMoney" aria-hidden="true" id="'icons"></i>
@@ -120,7 +122,7 @@
                                 </span>
                             </div>
                             <input type="number" disabled placeholder="000000" class="inputField"  >
-                        </div>
+                        </div> -->
     
                         <!-- <div class="sendCodeContainer">
                             <p class="sendCode">Transfer with code</p>
@@ -131,7 +133,7 @@
     
                         </div> -->
                         <div class="btnContainer">
-                            <button type="button" class="validBtn">Validate</button>
+                            <button type="button" class="validBtn">Generate</button>
                         </div> 
                     </form>
                 </div>
@@ -150,18 +152,18 @@
                         <span class="footerLabel">Home</span>
                     </a>
                 </li>
-                <li class="footerList">
-                    <a href="/generatePay.html" class="footerList">
-                        <i class="fa fa-money" aria-hidden="true" style="font-size: 20px;" ></i>
-                        <span class="footerLabel">Generate Pay</span>
-                    </a>
-                </li>
                 <!-- <li class="footerList">
+                    <a href="/scanToPay.html" class="footerList">
+                        <i class="fa fa-bell" aria-hidden="true" style="font-size: 20px;"></i>
+                        <span class="footerLabel">Notification</span>
+                    </a>
+                </li> -->
+                <li class="footerList">
                     <a href="#" class="footerList">
                         <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
                         <span class="footerLabel">Transaction</span>
                     </a>
-                </li> -->
+                </li>
                 <li class="footerList" style="margin-right: 10px;">
                     <a href="/scanToPay.html" class="footerList">
                         <i class="fa fa-qrcode" aria-hidden="true" style="width: 20px;"></i>
