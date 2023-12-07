@@ -962,6 +962,9 @@ input:checked + .slider:before {
     border-top-right-radius: 20px ;
 
 }
+.transfertContainer {
+  padding-top: 20px;
+}
   .lastBill {
     margin-top: 20px;
     width: 80%;
