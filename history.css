@@ -910,7 +910,7 @@ a {
   .bodyPage {
       height: 50vh;
       margin-top: 15px; 
-      padding-right: 10px;
+      /* padding-right: 10px; */
       width: 70%;
   }
   .billInfo {

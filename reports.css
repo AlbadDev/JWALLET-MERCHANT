@@ -1071,7 +1071,7 @@
     .bodyPage {
         height: 50vh;
         margin-top: 15px; 
-        padding-right: 10px;
+        /* padding-right: 10px; */
         width: 70%;
         border-top-left-radius: 20px ;
         border-top-right-radius: 20px ;
