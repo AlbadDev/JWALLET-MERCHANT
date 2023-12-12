@@ -992,7 +992,6 @@ tr:nth-child(even) {
   /* border: 1px solid red; */
   width: 100%;
 }
-.recuGoback
 
 /* Recu component style end */
 
@@ -1001,16 +1000,18 @@ tr:nth-child(even) {
 
 /* style footer start here */
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    width: 100%;
     height: 7vh;
     bottom: 0;
     position: fixed;
     left: 5px;
     right: 5px;
+    
 }
 .footerLink {
     display: flex;
