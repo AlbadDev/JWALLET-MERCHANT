@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iO-Pay</title>
-    <link rel="stylesheet" href="/register.css" />
+    <link rel="stylesheet" href="/login.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body class="containerBody">
     <div class="bodyContainer">
-        <div class="RegisterContainer">
+        <div class="containerLogin">
+            <!-- <div class="RegisterContainer"> -->
     
             <form action="submit" class="formcONTAINER">
-                <div class="loginContainer">
+                <div class="registerContainer">
                     <span class="headerRegister"> Registration</span>
                     <div class="imgContainer">
                         <img src="./images/iopayicon.png" alt="recieveIcon" width="50px" height="50px">
@@ -74,13 +75,13 @@
                                 <!-- <i class="fa fa-money iconMoney" aria-hidden="true" style="margin-right: 5px"></i> -->
                                 Gender</span>
                         </div>
-                        <select name="cars" id="selectButton">
+                        <select name="cars" id="selectButton" class="form-control">
                             <option value="volvo">Male</option>
                             <option value="saab">Female</option>
                         </select>
                     </div>
     
-                    <button class="login">Submit</button>
+                    <button class="register">Submit</button>
                     <br />
                     <a href="/login.html" class="alreadyHaveAccount">Already have account ?</a>
                 </div>

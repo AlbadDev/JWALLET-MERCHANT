@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iO-Pay</title>
-    <link rel="stylesheet" href="./transfer.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <link href="https://fonts.cdnfonts.com/css/gill-sans-std" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> -->
@@ -48,20 +48,20 @@
 
            
 
-            <div class="secondNavContainer">
+            <!-- <div class="secondNavContainer">
                 <div class="item">
                     <a href="/transfer.html" class="aLinkHead">
                         <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
                         <span class="footerLabel">Transaction</span>
                     </a>
-                    <a href="/history.html" class="aLinkHead">
+                    <a href="/generatePay.html" class="aLinkHead">
 
-                        <i class="fa fa-history" aria-hidden="true" style="width: 20px;"></i>
-                        <span class="footerLabel">History</span>
+                        <i class="fa fa-money" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Payment</span>
                     </a>
                 </div>
 
-            </div>
+            </div> -->
         </div>
 
 
@@ -79,7 +79,10 @@
                                     Type</span>
                             </div>
                             <select name="transaction" id="selectButton" class="inputField" id="inputFirst">
+                                <option value="Transfer">Transfer</option>
                                 <option value="Withdrawal">Withdrawal</option>
+                                <option value="Deposit">Deposit</option>
+                                <option value="Generate Code">Generate Code</option>
                             </select>
                         </div>
 
@@ -150,12 +153,12 @@
                         <span class="footerLabel">Home</span>
                     </a>
                 </li>
-                <li class="footerList">
+                <!-- <li class="footerList">
                     <a href="/generatePay.html" class="footerList">
                         <i class="fa fa-money" aria-hidden="true" style="font-size: 20px;" ></i>
                         <span class="footerLabel">Generate Pay</span>
                     </a>
-                </li>
+                </li> -->
                 <!-- <li class="footerList">
                     <a href="#" class="footerList">
                         <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>

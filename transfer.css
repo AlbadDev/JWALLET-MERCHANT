@@ -266,6 +266,7 @@ a {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: #f2f3f5;
+    border:1px solid red
 }
 .textHeadBill {
   text-align: center;

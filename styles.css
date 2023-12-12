@@ -10,6 +10,115 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   overflow: hidden;
 }
+
+/* ................................................................. */
+/* ................................................................. */
+/* LOGIN COMPONENT STYLE START HERE */
+/* ................................................................. */
+/* ................................................................. */
+.containerBody {
+  height: 100vh;
+  background-color: #1f58df;
+  
+}
+
+
+.containerLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* overflow: auto; */
+  /* background-color: #1f58df; */
+  /* position: fixed; */
+  top: 0;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  /* height: 560px; */
+}
+
+.headerLogin {
+  color: #1f58df;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #df7c1f4f;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.login {
+  padding: 10px 90px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f99f1b;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.form-control {
+  /* min-width: 130px;*/
+  width: 170px; 
+  height: 36px;
+  border: 1px solid #cccccc74;
+  border-left: none;
+  text-align: center;
+
+}
+
+.input-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 250px;
+}
+
+.form-control {
+  min-width: 170px;
+}
+
+.input-group-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 60px;
+  height: 20px;
+  background-color: #7d797914;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  /* border: 1px solid red; */
+}
+
+
+
+
+
 /* style navbar start here */
 
 .navbar {
@@ -277,7 +386,9 @@ a {
   justify-content: flex-start;
   width: 98%;
   height: 55vh;
-  /* border: 1px solid rgb(255, 0, 47); */
+  overflow: auto;
+  /* padding-top: 150px;
+  border: 1px solid rgb(255, 0, 47); */
 } 
 .headerbill {
     display: flex;
@@ -295,6 +406,7 @@ a {
 .textHeadBill {
     width: 100%;
     padding-left: 10px;
+    text-align: center;
 }
 .textHeadBill {
     font-weight: 600;
@@ -307,7 +419,8 @@ a {
     align-items: center;
     width: 100px;
     font-size: 12px;
-    color: #f99f1b;
+    font-weight: bold;
+    color: #1f58df;
     text-decoration: none;
     letter-spacing: 1px;
     cursor: pointer;
@@ -317,6 +430,8 @@ a {
   .bodyBill {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 40vh;
     margin-top: -10px;
   }
@@ -439,9 +554,309 @@ a {
     border: 5px solid gray;
   }
 
-/* style footer end here */
+/* style Transfer start here */
 
-/* style footer end here */
+.transfertContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  overflow: auto;
+ }
+ .transterFormContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  /* padding-top: 100px; */
+  padding-bottom: 5px;
+  /* margin-top: 40px; */
+  gap: 5px;
+  /* border: 2px solid red; */
+ }
+ .inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    height: 50px;
+ }
+ .labelContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #aca3be24; 
+    height: 100%;
+    padding-left: 4px;
+    width: 30%;
+}
+.inputField {
+  height: 100%;
+  width: 70%;
+  text-align: center;
+  border: none;
+  background-color:#aca3be24 ;
+}
+ .input-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+  border: 1px solid #cccccc74;
+}
+.input-group-label {
+  display: flex;
+  align-items:center ;
+  font-size: 14px;
+  padding: 10px;
+  height: 20px;
+  background-color: #7d797914;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  
+}
+
+
+.fraiText {
+  font-size: 14px;
+}
+.form-control {
+  min-width: 100px;
+  max-width: 100px;
+  height: 36px;
+  border: 1px solid #cccccc74;
+  border-left:none ;
+  text-align: center;
+}
+.btnContainer {
+  width: 90%;
+  height: 40px;
+  margin-top: 10px;
+}
+#inputFirst {
+  border-top-right-radius: 3px;
+}
+#inputSecond {
+  border-bottom-right-radius: 3px;
+}
+.sendCodeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.fraiContainer {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.fraiMontant {
+  font-weight: 600;
+}
+
+.validBtn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f99f1b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/* style Transfer end here */
+ /* Report Container START */
+ .userInfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.infosName {
+  font-weight: bold;
+}
+ .reportContainer {
+  width: 100%;
+  margin-top: -10px;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  height: 50px;
+  padding: 0px 5px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+
+.titleLabel {
+  color: #1f58df;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+#Daily:checked ~ #DailyContent,
+#Weekly:checked ~ #WeeklyContent,
+#Monthly:checked ~ #MonthlyContent,
+#Annually:checked ~ #AnnuallyContent {
+  display: block;
+}
+
+.tabcontent.active {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  background-color: #f1f3f5;
+  text-align: center;
+  padding: 8px;
+  height: 30px;
+  border-right: 1px solid rgba(128, 128, 128, 0.15) ;
+}
+th {
+  border-right: 1px solid rgba(240, 238, 238, 0.259) ;
+  background-color: #f99f1b;
+  font-size: 8px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  padding: 0px 8px;
+  height: 40px;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+/* REPORT CONTAINER END */
+
+/* STYLE SETTING START */
+.bodySetting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f58df;
+  height: 100vh;
+  margin: 0;
+}
+.goBack {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  font-weight: 600;
+  color: #3632bf;
+}
+.settingComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 20px solid #F5F4F4;
+  border-radius: 20px;
+  padding: 0px 5px;
+  width: 580px;
+  background-color: #f5f4f4;
+  
+}
+.containerItem {
+  display: flex;
+  flex-direction: column;
+
+}
+.containerTitle {
+  color: #1f58df;
+  margin-top: 30px;
+  width: 300px;
+  font-family:  sans-serif;
+  font-weight: 600;
+  
+}
+.itemHome {
+  background-color: #fff;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-family:  sans-serif;
+}
+.item {
+  cursor: pointer;
+  color: inherit;
+}
+.listInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 40px;
+  padding: 10px 0px;
+  overflow: hidden;
+}
+.pList {
+  margin-top: 15px;
+  margin-bottom: -10px;
+  color: #f99f1b;
+  font-weight: 600;
+}
+.logout {
+  color: red;
+  font-weight: bold ;
+}
+.settingFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+  color: gray;
+}
+.version {
+  text-align: center;
+}
+/* STYLE SETTING END   */
 
 /* style footer start here */
 
@@ -485,6 +900,11 @@ a {
   .iconMoney {
     color: #000;
   }
+
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
 /* style footer end here */
 
 
@@ -492,6 +912,30 @@ a {
 /* ..............MEDIA QUERY FOR SMALL DEVICES.... */
 
 @media (min-width: 0px) and (max-width: 320px) {
+  /* login and register */
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    /* height: 560px; */
+    }
+    .input-group {
+      width: 230px;
+    }
+    .form-control {
+      min-width: 150px;
+    }
+
+  /* end login and register */
+  
   .navLink {
     margin-right: 23px;
   }
@@ -500,7 +944,6 @@ a {
   }
   .name {
     font-size: 12px;
-    border: 1px solid red;
     margin-left: -5px;
   }
     /* .......BLUE CONTAINER START..... */
@@ -543,6 +986,33 @@ a {
     }
    
     /* .......BLUE CONTAINER END..... */
+    /* Transfer  */
+    .transfertContainer {
+      padding-top: 20px;
+      /* border: 1px solid red; */
+    }
+
+    /* rEPORT iNFOR */
+    .userInfos {
+      margin-top: 5px;
+      margin-bottom: -30px;
+    }
+
+    .img {
+      min-width: 40px;
+      min-height: 40px;
+    }
+    .soldeTitle {
+      margin-top: 30px;
+    }
+
+    /* setting */
+    .settingComponent {
+      width: 260px;
+    }
+    #userContainer {
+      height: 80vh;
+    }
 }
 
 @media (min-width: 323px) and (max-width: 359px) {
@@ -571,12 +1041,14 @@ a {
       padding: 6px 20px;
       width: 110px;
   }
-  /*.bodyPage {
-       height: 45vh;
-      margin-top: 15px; */
-      /* padding-right: 10px; */
-      /* border: 2px solid red; 
-  }*/
+
+   /* setting */
+   .settingComponent {
+    width: 280px;
+  }
+  #userContainer {
+    height: 80vh;
+  }
   .footer {
      
       margin-top: 10px;
@@ -589,7 +1061,20 @@ a {
 
 
 
-@media (min-width: 359px) and (max-width: 425px) {
+@media (min-width: 359px) and (max-width: 599px) {
+  /* login register */
+  .imgContainer {
+    width: 90px;
+    height: 90px;
+}
+  .input-group {
+    width: 250px;
+    /* border: 1px solid red; */
+  }
+  .form-control {
+    min-width: 170px;
+  }
+  /* login register */
   .title {
     color: #3632bf;
     font-size: 14px;
@@ -649,13 +1134,33 @@ a {
         margin-top: 15px; 
         padding-right: 10px;
     }*/
+     /* .......BLUE CONTAINER END..... */
+    /* Transfer  */
+    .transfertContainer {
+      padding-top: 20px;
+      /* border: 1px solid red; */
+    }
+
+     /* setting */
+    .settingComponent {
+     width: 280px;
+     padding: 70px 10px;
+    }
+    #userContainer {
+      height: 80vh;
+    }
     .footer {
         margin-top: 10px;
     }
     /* .......BLUE CONTAINER END..... */
+
+
+
+   
 }
 
 @media (min-width: 360px) and (max-height: 570px) {
+
   .head {
     display: flex;
     flex-direction: column;
@@ -699,6 +1204,11 @@ a {
     margin-top: -50px;
   }
 
+  /* setting */
+  .settingComponent {
+    width: 280px;
+   }
+
   .footer {
       margin-top: 10px;
   }
@@ -706,7 +1216,14 @@ a {
 }
 
 @media (min-width: 340px) and (max-width: 459px) and (max-height: 680px) {
-
+/* style login */
+.input-group {
+  width: 250px;
+}
+.form-control {
+  min-width: 170px;
+}
+/* style login */
   .head {
     width: 88.5%;
     height: 150px;
@@ -789,6 +1306,10 @@ a {
     border: none;
     background-color:#aca3be24 ;
 }
+ /* setting */
+ .settingComponent {
+  width: 280px;
+ }
   .footer {
       margin-top: 10px;
   }
@@ -799,13 +1320,53 @@ a {
 
 
 
+@media (min-width: 600px) and (max-width: 1024px) and (min-height: 1024px){
 
+}
 
 
 
 /* ...............STYLE FOR TABLET SCREEN........... */
 @media (min-width: 600px) and (max-width: 1024px) {
+/* Login and register */
+.containerLogin {
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+.imgContainer {
+  width: 100px;
+  height: 100px;
+}
+.forgetPass {
+  margin-bottom: 10px;
+}
+.login { 
+  margin-top: -5px;
+}
+.loginContainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin: 50px auto;
+background-color: #fff;
+border-radius: 20px;
+padding: 20px;
+width: 300px;
+height: 400px;
+/* height: 560px; */
+}
 
+.input-group {
+  width: 250px;
+  /* border: 1px solid red; */
+}
+.form-control {
+  min-width: 170px;
+}
+
+/* end login and register */
   .navLink {
     display: flex;
     justify-content: center;
@@ -864,6 +1425,7 @@ a {
   /* .headerbill {
     margin-top: -27px;
   } */
+ 
   .footer {
       /* height: 50px; */
       margin-top: 10px;
@@ -875,7 +1437,10 @@ a {
 /* ...............STYLE FOR laptop DEVICES.......... */
 
 @media (min-width: 1024px) and (max-width: 5023px) {
+/* Style Login  */
 
+
+/* Login End */
   .navLink {
     display: flex;
     justify-content: center;
@@ -960,6 +1525,29 @@ a {
   /* border: 1px solid red; */
  }
 
+ /* .transfertContainer {
+    padding-top: 100px;
+ } */
+ th {
+  font-size: 20px;
+ }
+ #transterFormContainer {
+  padding-top: 20px;
+  }
+  #userContainer {
+    /* margin-top: -100px; */
+    height: 90vh;
+  }
+  .addUserBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: #fff;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
   .footer {
       /* height: 50px; */
       margin-top: 10px;

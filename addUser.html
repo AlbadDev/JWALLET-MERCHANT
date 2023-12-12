@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iO-Pay</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/gill-sans-std" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> -->
+
+</head>
+
+
+<body class="body">
+    <div class="navbar">
+        <div class="profileImg">
+            <a href="/login.html" class="linkIcon">
+                <i class="fa fa-user-o" aria-hidden="true" style="font-size: 20px;"></i>
+            </a>
+        </div>
+        <!-- <div class="iopayIcon">
+            <img src="./images/iopayicon.png" alt="recieveIcon" width="45px" height="40px">
+        </div> -->
+        <div class="navLink">
+            <span class="title"> Merchant Portal:</span>
+            <span class="name"> Gambnb</span>
+
+        </div>
+    </div>
+
+
+    <div class="homeArticle">
+
+
+        <!-- <div class="head">
+            <div class="userInfos">
+                
+                <div class="img">
+                    <img class="imgHead" src="./images/man.png" alt="recieveIcon" width="30px" height="30px">
+                </div>
+                <div class="infosName">B Coly</div>
+            </div>
+            <div class="secondNavContainer">
+                <div class="item">
+                    <a href="/users.html" class="aLinkHead">
+                        <i class="fa fa-users" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Users</span>
+                    </a>
+                </div>
+
+            </div>
+
+           
+
+            <div class="secondNavContainer">
+                <div class="item">
+                    <a href="/transfer.html" class="aLinkHead">
+                        <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Transaction</span>
+                    </a>
+                    <a href="/generatePay.html" class="aLinkHead">
+
+                        <i class="fa fa-money" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Payment</span>
+                    </a>
+                </div>
+
+            </div> 
+        </div>-->
+
+
+        <div class="bodyPage" id="userContainer">
+                <div class="headerbill">
+                    <p class="textHeadBill">Add New User</p>
+                    <a href="/users.html" class="addUserBtn">
+                        <i class="fa fa-users" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Users</span>
+                    </a>
+                </div>
+                <div class="transfertContainer" >
+                    <form action="submit" class="transterFormContainer" id="transterFormContainer">
+
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-street-view" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>First Name</span>
+                            </div>
+                            <input type="text"  placeholder="-----------" class="inputField" id="inputSecond">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-street-view" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>Last Name</span>
+                            </div>
+                            <input type="text"  placeholder="-----------" class="inputField" id="inputSecond">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-phone" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>Phone Number</span>
+                            </div>
+                            <input type="number"  placeholder="111-22-33" class="inputField" id="inputSecond">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-envelope" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>Email</span>
+                            </div>
+                            <input type="email"  placeholder="exemple@gmail.com" class="inputField" id="inputSecond">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span class="labelText" id="">
+                                    <i class="fa fa-users" aria-hidden="true" style="margin-right: 5px"></i>
+                                    Gender</span>
+                            </div>
+                            <select name="transaction" id="selectButton" class="inputField" id="inputFirst">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                
+                            </select>
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span class="labelText" id="">
+                                    <!-- <i class="fa fa-user-circle" aria-hidden="true" style="margin-right: 5px;"></i>
+                             </i> -->
+                                    Birthday</span>
+                            </div>
+                            <input type="date" value="1998-04-04" min="1900-01-01" max="2005-01-01" class="inputField" id="inputSecond" style="text-align: center;">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span class="labelText" id="">
+                                    <i class="fa fa-user-secret" aria-hidden="true" style="margin-right: 5px"></i>
+                                    Profile</span>
+                            </div>
+                            <select name="transaction" id="selectButton" class="inputField" id="inputFirst">
+                                <option value="Transfer">Agent</option>
+                                <option value="Withdrawal">Manager</option>
+                                <option value="Deposit">User</option>
+                                <option value="Generate Code">Merchant</option>
+                            </select>
+                        </div>
+
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span  id="" class="labelText"><i class="fa fa-street-view" id="'icons" aria-hidden="true"
+                                        style="margin-right: 5px"></i>Shop</span>
+                            </div>
+                            <input type="text"  placeholder="Shop Name" class="inputField" id="inputSecond">
+                        </div>
+    
+                        <div class="btnContainer">
+                            <button type="button" class="validBtn">Validate</button>
+                        </div> 
+                    </form>
+                </div>
+        </div>
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="footerLink">
+            <ul class="footerItem">
+
+                <li class="footerList" style="margin-left: -30px;">
+                    <a href="/" class="footerList">
+                        <i class="fa fa-home" aria-hidden="true" style="font-size: 20px;"></i>
+                        <span class="footerLabel">Home</span>
+                    </a>
+                </li>
+                <!-- <li class="footerList">
+                    <a href="/generatePay.html" class="footerList">
+                        <i class="fa fa-money" aria-hidden="true" style="font-size: 20px;" ></i>
+                        <span class="footerLabel">Generate Pay</span>
+                    </a>
+                </li> -->
+                <li class="footerList">
+                    <a href="/transfer.html" class="footerList">
+                        <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Transfer</span>
+                    </a>
+                </li>
+                <li class="footerList" style="margin-right: 10px;">
+                    <a href="/reports.html" class="footerList">
+                        <i class="fa fa-tachometer" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Reports</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+
+</html>

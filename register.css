@@ -38,7 +38,7 @@ body {
    /* position: fixed; */
     /* overflow: auto; */
     /* height: 560px; */
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 .loginContainer {
     display: flex;
@@ -59,6 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    border: 1px solid red;
 }
 
 .headerRegister {
@@ -148,19 +149,18 @@ body {
         position: fixed;
     }
     .RegisterContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    /* margin: 50px auto; */
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 20px;
-    min-width: 220px;
-    height: 500px;
-    /* height: 560px; */
-   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* margin: 50px auto; */
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        min-width: 220px;
+        height: 500px;
+        /* height: 560px; */
     }
     .imgContainer {
         width: 70px;
