@@ -674,6 +674,10 @@ a {
 
 
 /* style Transfer end here */
+
+
+
+
  /* Report Container START */
  .userInfos {
   display: flex;
@@ -775,6 +779,14 @@ tr:nth-child(even) {
 }
 /* REPORT CONTAINER END */
 
+
+
+
+
+
+
+
+
 /* STYLE SETTING START */
 .bodySetting {
   display: flex;
@@ -857,6 +869,135 @@ tr:nth-child(even) {
   text-align: center;
 }
 /* STYLE SETTING END   */
+
+
+/* STYLE User  */
+.addUserBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  background-color: #fff;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* STYLE USER END */
+
+/* Recu component style start */
+.donePayContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.recuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 200px;
+  width: 400px;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.recuHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  /* border: 1px solid red; */
+  margin-top: -30px;
+}
+.validIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  /* width: 50px;
+  height: 40px; */
+  border: 15px solid #fff;
+  border-radius: 50%;
+}
+#fa-check-circle {
+  font-size: 70px;
+  margin-top: -5px;
+}
+.recuBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding-top: 10px;
+  font-family: sans-serif;
+  
+}
+.successText {
+  color: #24b75f;
+  font-weight: 600;
+ 
+}
+.dashed {
+  width: 60%;
+  border-bottom: 1px dashed gray;
+}
+.payDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+}
+.payItems {
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  width: 60%;
+}
+.infosContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.reculabel {
+  color: #0a24624a;
+}
+.detail {
+  color: #0a2462a1;
+  font-weight: bold;
+}
+.payStatus{
+  background-color: #1f58df;
+  color: #fff;
+  padding: 4px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.recuFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6c2c21d;
+  height: 15vh;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.recuGoback
+
+/* Recu component style end */
+
+
+
 
 /* style footer start here */
 
@@ -1013,6 +1154,8 @@ tr:nth-child(even) {
     #userContainer {
       height: 80vh;
     }
+    /* recu */
+  
 }
 
 @media (min-width: 323px) and (max-width: 359px) {
@@ -1538,16 +1681,7 @@ height: 400px;
     /* margin-top: -100px; */
     height: 90vh;
   }
-  .addUserBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    background-color: #fff;
-    height: 20px;
-    margin-right: 10px;
-    border-radius: 5px;
-  }
+  
   .footer {
       /* height: 50px; */
       margin-top: 10px;
