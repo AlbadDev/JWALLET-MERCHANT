@@ -618,7 +618,9 @@ a {
   border-bottom-left-radius: 3px;
   
 }
-
+#selectButton {
+  cursor: pointer;
+}
 
 .fraiText {
   font-size: 14px;
@@ -705,7 +707,20 @@ a {
   width: 100%;
   margin-top: -10px;
 }
-
+.reportLabel {
+  background-color: #1f58df;
+  color: #fff;
+  border: 1px solid #1f58df;
+  border-radius: 5px;
+  padding:  5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.reportLabel:hover {
+  background-color: #fff;
+  color: #1f58df;
+  padding: 5px 10px;
+}
 .tab {
   display: flex;
   justify-content: space-between;
@@ -995,8 +1010,89 @@ tr:nth-child(even) {
 
 /* Recu component style end */
 
+/* Deplafonnage */
 
-
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.titleDefContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0px 50px;
+  margin-bottom: 5px;
+}
+#deplafonnageTitle {
+  font-size: 16px;
+  width: 100%;
+}
+.descriptions {
+  color: #2a85e5;
+  margin: 10px 0px;
+}
+#idCardInfoContainer {
+  margin-top: 20px;
+}
+#uploadInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #2477b72f;
+  margin-bottom: 20px;
+}
+.afficerIdCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border: 1px solid rgba(128, 128, 128, 0.239);
+  height: 300px;
+  margin-top: 20px;
+  gap: 10px;
+}
+.displayBtn {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  background-color: none;
+  color: #F5F4F4;
+}
+.btn {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius:5px;
+  color: #fff;
+  font-weight: 600;
+}
+.validOrCancelBtnContainer {
+  display: flex;
+  gap: 60px;
+  margin: 20px 0px;
+}
+.validate {
+  background-color: #f99f1b;
+}
+.cancel {
+  background-color: red;
+}
+.reportContainer{
+  overflow: auto;
+}
 
 /* style footer start here */
 

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iO-Pay</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/gill-sans-std" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> -->
+
+</head>
+
+
+<body class="body">
+    <div class="navbar">
+        <div class="profileImg">
+            <a href="/login.html" class="linkIcon">
+                <i class="fa fa-user-o" aria-hidden="true" style="font-size: 20px;"></i>
+            </a>
+        </div>
+
+        <div class="navLink">
+            <span class="title"> Manager Portal:</span>
+            <span class="name">Gambnb </span>
+        </div>
+
+    </div>
+
+
+    <div class="homeArticle">
+
+
+        <!-- <div class="head">
+           
+             <div class="userInfos">
+                
+                <div class="img">
+                    <img class="imgHead" src="./images/man.png" alt="recieveIcon" width="30px" height="30px">
+                </div>
+                <div class="infosName">B Coly</div>
+            </div> -->
+        <!-- <div class="secondNavContainer">
+                <div class="item">
+                    <a href="/addUser.html" class="aLinkHead">
+                        <i class="fa fa-plus-circle" aria-hidden="true" style="width: 20px;"></i>
+                        <span class="footerLabel">Add New User</span>
+                    </a>
+                  
+                </div>
+
+            </div>
+
+        </div> -->
+
+        <div class="bodyPage" id="userContainer">
+            <div class="headerbill">
+                <p class="textHeadBill">Application form for higher account limits</p>
+                <a href="/" class="addUserBtn">
+                    <i class="fa fa-ban" aria-hidden="true" style="width: 20px;color: red;"></i>
+                    <span class="footerLabel" style="color: red;">Cancel</span>
+                </a>
+            </div>
+            <div class="reportContainer"  >
+                <div class="formContainer">
+                    <form action="" class="formContainer">
+                    <div class="profileInfo">
+                        <div class="titleDefContainer">
+                            <span class="title" id="deplafonnageTitle">Personal Infos</span>
+                        </div>
+                        
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-user-circle" id="'icons"aria-hidden="true" style="margin-right: 5px;"></i> -->
+                                    First Name</span>
+                            </div>
+                            <input type="text" placeholder="Enter First Name" class="inputField" id="inputFirst">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-street-view" id="'icons"aria-hidden="true" style="margin-right: 5px"></i> -->
+                                    Last Name</span>
+                            </div>
+                            <input type="text" placeholder="Enter Last Name" class="inputField" id="inputSecond">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-user-circle" id="'icons" aria-hidden="true" style="margin-right: 5px;"></i></i> -->
+                                    Mobile Number</span>
+                            </div>
+                            <input type="number" placeholder=" Enter Phone Number" class="inputField" id="inputFirst">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-user-circle" id="'icons" aria-hidden="true" style="margin-right: 5px;"></i></i> -->
+                                    Date Of Birth</span>
+                            </div>
+                            <input type="date" placeholder=" Enter Phone Number" class="inputField" id="inputFirst">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-street-view" id="'icons"aria-hidden="true" style="margin-right: 5px"></i> -->
+                                    Occupation</span>
+                            </div>
+                            <input type="text" placeholder="Enter Your Job Title" class="inputField" id="inputSecond">
+                        </div>
+                    </div>
+
+                    <div class="profileInfo" id="idCardInfoContainer">
+                        <div class="titleDefContainer">
+                            <span class="title" id="deplafonnageTitle">ID Card or Passport Infos</span>
+                        </div>
+                        <span class="descriptions">* Please upload a clear photo of your valid ID card or Passport
+                            *</span>
+
+                        <div class="inputField" id="uploadInput">
+                            <input type="file" placeholder="Enter First Name"
+                                style="display: flex;justify-content: center;align-items: center;">
+                        </div>
+
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-street-view" id="'icons"aria-hidden="true" style="margin-right: 5px"></i> -->
+                                    Date of Delivery</span>
+                            </div>
+                            <input type="date" placeholder="Enter Last Name" class="inputField" id="inputSecond">
+                        </div>
+                        <div class="inputContainer">
+                            <div class="labelContainer">
+                                <span id="" class="labelText">
+                                    <!-- <i class="fa fa-user-circle" id="'icons" aria-hidden="true" style="margin-right: 5px;"></i></i> -->
+                                    Expiration Date</span>
+                            </div>
+                            <input type="date" placeholder=" Enter Phone Number" class="inputField" id="inputFirst">
+                        </div>
+                    </div>
+                    <div class="afficerIdCard">
+                        <button class="displayBtn"><i class="fa fa-eye" aria-hidden="true" style="font-size: 50px;color: #000;"></i></button>
+                        <button class="displayBtn" ><i class="fa fa-eye-slash" aria-hidden="true" style="font-size: 50px;color: #000;"></i></button>
+                    </div>
+
+                    <div class="validOrCancelBtnContainer">
+                        <button class="btn validate">Validate</button>
+                        <button class="btn cancel">Bloque</button>
+                    </div>
+                </form>
+                
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="footerLink">
+                <ul class="footerItem">
+
+                    <li class="footerList" style="margin-left: -30px;">
+                        <a href="/" class="footerList">
+                            <i class="fa fa-home" aria-hidden="true" style="font-size: 20px;"></i>
+                            <span class="footerLabel">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="footerList">
+                        <a href="/transfer.html" class="footerList">
+                            <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;"></i>
+                            <span class="footerLabel">Transfer</span>
+                        </a>
+                    </li>
+
+                    <li class="footerList" style="margin-right: 10px;">
+                        <a href="#" class="footerList">
+                            <i class="fa fa-tachometer" aria-hidden="true" style="width: 20px;"></i>
+                            <span class="footerLabel">Reports</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+</body>
+
+
+</html>
