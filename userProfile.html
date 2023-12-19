@@ -33,34 +33,21 @@
     <div class="homeArticle">
 
 
-        <!-- <div class="head">
-           
-             <div class="userInfos">
-                
-                <div class="img">
-                    <img class="imgHead" src="./images/man.png" alt="recieveIcon" width="30px" height="30px">
-                </div>
-                <div class="infosName">B Coly</div>
-            </div> -->
-        <!-- <div class="secondNavContainer">
-                <div class="item">
-                    <a href="/addUser.html" class="aLinkHead">
-                        <i class="fa fa-plus-circle" aria-hidden="true" style="width: 20px;"></i>
-                        <span class="footerLabel">Add New User</span>
-                    </a>
-                  
-                </div>
-
-            </div>
-
-        </div> -->
-
         <div class="bodyPage" id="userContainer">
             <div class="headerbill">
                 <p class="textHeadBill">KYC Account Limits</p>
+                <a href="/reports.html" class="addUserBtn">
+                    <i class="fa fa-exchange" aria-hidden="true" style="width: 20px;color: #58ce54;"></i>
+                    <span class="footerLabel" style="color: #58ce54;">Transaction</span>
+                </a>
+                
+                <a href="/history.html" class="addUserBtn">
+                    <i class="fa fa-book" aria-hidden="true" style="width: 20px;color: gray;"></i>
+                    <span class="footerLabel" style="color: gray;">History</span>
+                </a>
                 <a href="/" class="addUserBtn">
-                    <i class="fa fa-ban" aria-hidden="true" style="width: 20px;color: red;"></i>
-                    <span class="footerLabel" style="color: red;">Cancel</span>
+                    <i class="fa fa-key" aria-hidden="true" style="width: 20px;color: red;"></i>
+                    <span class="footerLabel" style="color: red;">block</span>
                 </a>
             </div>
             <div class="reportContainer">
@@ -81,11 +68,8 @@
                                        </div>
                                             <span>Show Profile Picture </span>
                                     </div>
-                                        <div class="inputField" id="uploadInput">
-                                            <input type="file" id="file-upload-button"
-                                                style="display: flex;justify-content: center;align-items: center;">
-                                        </div>
                                 </div>
+
                                 <div class="personalInfoFormContainer">
                                     <div class="inputContainer">
                                         <div class="labelContainer">
@@ -93,8 +77,7 @@
                                                 <!-- <i class="fa fa-user-circle" id="'icons"aria-hidden="true" style="margin-right: 5px;"></i> -->
                                                 First Name</span>
                                         </div>
-                                        <input type="text" placeholder="Enter First Name" class="inputField"
-                                            id="inputFirst">
+                                        <span type="text"  class="inputField" id="infoHolder">Sofia</span>
                                     </div>
                                     <div class="inputContainer">
                                         <div class="labelContainer">
@@ -102,8 +85,7 @@
                                                 <!-- <i class="fa fa-street-view" id="'icons"aria-hidden="true" style="margin-right: 5px"></i> -->
                                                 Last Name</span>
                                         </div>
-                                        <input type="text" placeholder="Enter Last Name" class="inputField"
-                                            id="inputSecond">
+                                        <span type="text"  class="inputField" id="infoHolder">Seck</span>
                                     </div>
                                     <div class="inputContainer">
                                         <div class="labelContainer">
@@ -111,8 +93,7 @@
                                                 <!-- <i class="fa fa-user-circle" id="'icons" aria-hidden="true" style="margin-right: 5px;"></i></i> -->
                                                 Mobile Number</span>
                                         </div>
-                                        <input type="number" placeholder=" Enter Phone Number" class="inputField"
-                                            id="inputFirst">
+                                        <span type="text"  class="inputField" id="infoHolder">345 10 05</span>
                                     </div>
                                     <div class="inputContainer">
                                         <div class="labelContainer">
@@ -120,8 +101,7 @@
                                                 <!-- <i class="fa fa-user-circle" id="'icons" aria-hidden="true" style="margin-right: 5px;"></i></i> -->
                                                 Date Of Birth</span>
                                         </div>
-                                        <input type="date" placeholder=" Enter Phone Number" class="inputField"
-                                            id="inputFirst">
+                                        <span type="text"  class="inputField" id="infoHolder">4/4/1999</span>
                                     </div>
                                     <div class="inputContainer">
                                         <div class="labelContainer">
@@ -129,36 +109,25 @@
                                                 <!-- <i class="fa fa-street-view" id="'icons"aria-hidden="true" style="margin-right: 5px"></i> -->
                                                 Occupation</span>
                                         </div>
-                                        <input type="text" placeholder="Enter Your Job Title" class="inputField"
-                                            id="inputSecond">
+                                        <span type="text"  class="inputField" id="infoHolder">Ai Developer</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="titleDefContainer">
+                            <span class="title" id="deplafonnageTitle">ID Card or Passport Infos</span>
+                        </div>
                         <div class="secondFormPart">
+                           
                             <div class="profileInfo" id="idCardInfoContainer">
-                                <div class="titleDefContainer">
-                                    <span class="title" id="deplafonnageTitle">ID Card or Passport Infos</span>
-                                </div>
-                                
-                                <div class="secondHeadContainer">
-                                    <span class="descriptions">*Please upload a clear photo of your valid ID card or Passport
-                                        *</span>
-    
-                                    <div class="inputField" id="uploadInput">
-                                        <input type="file" 
-                                            style="display: flex;justify-content: center;align-items: center;">
-                                    </div>
-                                </div>
-
+                            
                                 <div class="inputContainer">
                                     <div class="labelContainer">
                                         <span id="" class="labelText">
                                             <!-- <i class="fa fa-street-view" id="'icons"aria-hidden="true" style="margin-right: 5px"></i> -->
                                             Date of Delivery</span>
                                     </div>
-                                    <input type="date" placeholder="Enter Last Name" class="inputField" id="inputSecond">
+                                    <span type="text"  class="inputField" id="infoHolder">10/11/2022</span>
                                 </div>
                                 <div class="inputContainer">
                                     <div class="labelContainer">
@@ -166,7 +135,7 @@
                                             <!-- <i class="fa fa-user-circle" id="'icons" aria-hidden="true" style="margin-right: 5px;"></i></i> -->
                                             Expiration Date</span>
                                     </div>
-                                    <input type="date" placeholder=" Enter Phone Number" class="inputField" id="inputFirst">
+                                    <span type="text"  class="inputField" id="infoHolder">1/1/2030</span>
                                 </div>
                             </div>
                             <div class="afficerIdCard">
@@ -176,10 +145,6 @@
                                         style="font-size: 50px;color: #000;"></i></button>
                                         <span>Show ID Card or Passport</span>
                             </div>
-                        </div>
-                        <div class="validOrCancelBtnContainer">
-                            <button class="btn validate">Validate</button>
-                            <button class="btn cancel">Bloque</button>
                         </div>
                     </form>
 

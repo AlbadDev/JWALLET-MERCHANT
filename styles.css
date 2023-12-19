@@ -1011,7 +1011,20 @@ tr:nth-child(even) {
 /* Recu component style end */
 
 /* Deplafonnage */
-
+.igmContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.159);
+  width: 220px;
+  height: 200px;
+}
+.eyeContainer {
+  display: flex;
+  gap: 10px;
+}
 .formContainer {
   display: flex;
   flex-direction: column;
@@ -1027,11 +1040,33 @@ tr:nth-child(even) {
   align-items: center;
   width: 100%;
 }
+.headForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0px 50px;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+.headInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 15px;
+  width: 35%;
+}
+.personalInfoFormContainer {
+  width: 60%;
+  margin-right: -50px;
+}
 .titleDefContainer {
   display: flex;
   align-items: flex-start;
   width: 90%;
-  margin: 0px 50px;
   margin-bottom: 5px;
 }
 #deplafonnageTitle {
@@ -1041,8 +1076,26 @@ tr:nth-child(even) {
 .descriptions {
   color: #2a85e5;
   margin: 10px 0px;
+  width: 90%;
+  text-align: justify;
+}
+.secondFormPart {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.secondHeadContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #idCardInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
   margin-top: 20px;
 }
 #uploadInput {
@@ -1054,12 +1107,21 @@ tr:nth-child(even) {
   background-color: #2477b72f;
   margin-bottom: 20px;
 }
+#infoHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a0b;
+  border-bottom: 2px solid hsla(0, 2%, 82%, 0.085);
+}
+
 .afficerIdCard {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  border: 1px solid rgba(128, 128, 128, 0.239);
+  width: 54.5%;
+  /* border: 1px solid rgba(128, 128, 128, 0.093); */
+  background-color: #0a0a0a0b;
   height: 300px;
   margin-top: 20px;
   gap: 10px;
@@ -1070,6 +1132,7 @@ tr:nth-child(even) {
   border-radius: 10px;
   background-color: none;
   color: #F5F4F4;
+  cursor: pointer;
 }
 .btn {
   height: 40px;
@@ -1082,7 +1145,7 @@ tr:nth-child(even) {
 .validOrCancelBtnContainer {
   display: flex;
   gap: 60px;
-  margin: 20px 0px;
+  margin: 50px 0px;
 }
 .validate {
   background-color: #f99f1b;
@@ -1148,6 +1211,35 @@ footer {
 
 /* ............................................ */
 /* ..............MEDIA QUERY FOR SMALL DEVICES.... */
+
+@media (max-width:760px) {
+  /* kyc account limite */
+  .headForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .personalInfoFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+
+
 
 @media (min-width: 0px) and (max-width: 320px) {
   /* login and register */
@@ -1252,7 +1344,8 @@ footer {
       height: 80vh;
     }
     /* recu */
-  
+
+    
 }
 
 @media (min-width: 323px) and (max-width: 359px) {
