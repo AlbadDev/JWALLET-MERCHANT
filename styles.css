@@ -1229,6 +1229,28 @@ footer {
     width: 100%;
     gap: 10px;
   }
+  .titleDefContainer {
+    margin-top: 50px;
+  }
+  .secondFormPart {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #idCardInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .afficerIdCard {
+    width: 100%;
+  }
   .personalInfoFormContainer {
     display: flex;
     flex-direction: column;
