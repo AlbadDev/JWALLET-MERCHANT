@@ -1111,6 +1111,9 @@ tr:nth-child(even) {
   background-color: #2477b72f;
   margin-bottom: 20px;
 }
+#dateField {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.081);
+ }
 #infoHolder {
   display: flex;
   justify-content: center;
@@ -1232,6 +1235,12 @@ footer {
     width: 100%;
     gap: 10px;
   }
+  .secondHeadContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .secondHeadTitle {
     margin: 50px 0px;
     color: #1f961c;
@@ -1244,7 +1253,10 @@ footer {
     align-items: flex-start;
     margin-top: 50px;
   }
-
+  #secondTitle{
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
   #idCardInfoContainer {
     display: flex;
     flex-direction: column;
@@ -1264,7 +1276,12 @@ footer {
     margin-right: 0px;
   }
 }
-
+@media (min-width:760px) and (max-height:1024px) {
+  #userContainer {
+    height: 75vh;
+  }
+ 
+}
 
 
 
