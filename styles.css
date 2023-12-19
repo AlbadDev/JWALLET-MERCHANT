@@ -1093,6 +1093,10 @@ tr:nth-child(even) {
   flex-direction: column;
   gap: 10px;
 }
+#secondHeadTitle {
+  width: 100%;
+  font-size: 16px;
+}
 #idCardInfoContainer {
   display: flex;
   flex-direction: column;
@@ -1124,14 +1128,15 @@ tr:nth-child(even) {
 
 .afficerIdCard {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 54.5%;
+  gap: 30px;
   /* border: 1px solid rgba(128, 128, 128, 0.093); */
   background-color: #0a0a0a0b;
   height: 250px;
   margin-top: 20px;
-  gap: 10px;
 }
 .displayBtn {
   border: none;
@@ -1243,7 +1248,6 @@ footer {
   }
   .secondHeadTitle {
     margin: 50px 0px;
-    color: #1f961c;
   }
   .secondFormPart {
     width: 90%;
