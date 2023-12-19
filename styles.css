@@ -1032,6 +1032,7 @@ tr:nth-child(even) {
   align-items: center;
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 .profileInfo {
   display: flex;
